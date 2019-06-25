@@ -275,7 +275,3 @@ spark.read.json("/tmp/irena/privilege_types.json").createOrReplaceTempView("priv
 // COMMAND ----------
 
 // MAGIC %sql select * from user_store_features_settings
-
-// COMMAND ----------
-
-val x = spark.read("s3://yotpo-data-lake/topics/logstash-kong-gateway/year=2019/month=05/day=29/hour=07")
