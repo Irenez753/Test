@@ -275,3 +275,6 @@ spark.read.json("/tmp/irena/privilege_types.json").createOrReplaceTempView("priv
 // COMMAND ----------
 
 // MAGIC %sql select * from user_store_features_settings
+
+// COMMAND ----------
+
